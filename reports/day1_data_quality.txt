@@ -1,0 +1,27 @@
+Day 1 Data Quality Summary
+
+Datasets Loaded: 10
+
+Checks Performed:
+
+* Shape verification
+* Data type validation
+* Missing value analysis
+* Duplicate record analysis
+* AMFI code validation
+
+AMFI Validation Results:
+
+* Total Fund Master Codes: 40
+* Total NAV History Codes: 40
+* Missing Codes: 0
+
+Observations:
+
+* All AMFI codes from fund_master are present in nav_history.
+* Dataset relationships are valid.
+* No missing AMFI scheme mappings were found.
+* Data ingestion process completed successfully.
+
+Status:
+Day 1 data ingestion and validation completed successfully.
